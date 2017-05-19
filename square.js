@@ -3,8 +3,8 @@
 
 function printSquare (size) {
   star = '* ';
-  for (var count=0; count<size; count++) {
+  for (var count=1; count<=size; count++) {
     console.log(star.repeat(size));
   }
 }
-printSquare(5);
+printSquare(10);
